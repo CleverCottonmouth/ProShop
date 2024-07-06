@@ -118,6 +118,14 @@ const products = [
         description: 'Action camera with 5K video',
         brand: 'GoPro',
         category: 'Cameras'
+    },
+    {
+        _id: '11',
+        name: 'Apple AirPods Pro',
+        price: 250,
+        image: 'https://placehold.co/400',
+        rating: 4.7,
+        numReviews: 100,
     }
 ];
 module.exports = products
