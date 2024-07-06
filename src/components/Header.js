@@ -10,8 +10,8 @@ const Header= () => {
       <Container>
       <LinkContainer to='/'>
       <Navbar.Brand>
-        <img src={logo} alt='logo' width={50}/>
-        E-Commerce
+        <img src={logo} alt='logo' width={50} style={{padding:5}}/>
+         ProShop
         </Navbar.Brand>
       </LinkContainer>     
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
