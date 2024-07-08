@@ -4,6 +4,8 @@ import { Row, Col, Image, ListGroup, Card, Button } from 'react-bootstrap';
 import { useParams } from 'react-router-dom'
 import Rating from '../components/Rating';
 import { useGetProductDetailsQuery } from '../slices/productsApiSlice';
+import Loader from '../components/Loader';
+import Message from "../components/Message"
 const ProductScreen = () => {
     
 
@@ -17,9 +19,13 @@ const {data:product,isLoading,error}=useGetProductDetailsQuery(productId);
         </Link>
 
         {isLoading ? (
-            <h2>Loading...</h2>
+            <Loader/>
         ) :error ? (
-            <h2>{error}</h2>
+            <div>
+        <Message variant="danger">
+        {error?.data?.message || error.error}
+        </Message>     
+        </div>
         ):(
             <Row>
             <Col md={5}>
