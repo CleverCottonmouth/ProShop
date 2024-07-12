@@ -1,6 +1,5 @@
 const products = [
     {
-        _id: '1',
         name: 'Nike Air Force 1',
         price: 100,
         image: 'https://placehold.co/400',
@@ -12,7 +11,7 @@ const products = [
         category: 'Footwear'
     },
     {
-        _id: '2',
+
         name: 'Adidas Ultraboost',
         price: 120,
         image: 'https://placehold.co/400',
@@ -24,7 +23,7 @@ const products = [
         category: 'Footwear'
     },
     {
-        _id: '3',
+
         name: 'Sony WH-1000XM4',
         price: 300,
         image: 'https://placehold.co/400',
@@ -36,7 +35,7 @@ const products = [
         category: 'Electronics'
     },
     {
-        _id: '4',
+
         name: 'Apple iPhone 13',
         price: 999,
         image: 'https://placehold.co/400',
@@ -48,7 +47,7 @@ const products = [
         category: 'Electronics'
     },
     {
-        _id: '5',
+     
         name: 'Samsung Galaxy S21',
         price: 899,
         image: 'https://placehold.co/400',
@@ -60,7 +59,7 @@ const products = [
         category: 'Electronics'
     },
     {
-        _id: '6',
+
         name: 'Dell XPS 13',
         price: 1200,
         image: 'https://placehold.co/400',
@@ -72,7 +71,7 @@ const products = [
         category: 'Computers'
     },
     {
-        _id: '7',
+ 
         name: 'Canon EOS R5',
         price: 3500,
         image: 'https://placehold.co/400',
@@ -84,7 +83,7 @@ const products = [
         category: 'Cameras'
     },
     {
-        _id: '8',
+   
         name: 'Bose QuietComfort 35 II',
         price: 299,
         image: 'https://placehold.co/400',
@@ -96,7 +95,7 @@ const products = [
         category: 'Electronics'
     },
     {
-        _id: '9',
+       
         name: 'Fitbit Charge 4',
         price: 150,
         image: 'https://placehold.co/400',
@@ -108,7 +107,7 @@ const products = [
         category: 'Wearables'
     },
     {
-        _id: '10',
+  
         name: 'GoPro HERO9 Black',
         price: 400,
         image: 'https://placehold.co/400',
@@ -120,7 +119,7 @@ const products = [
         category: 'Cameras'
     },
     {
-        _id: '11',
+
         name: 'Apple AirPods Pro',
         price: 250,
         image: 'https://placehold.co/400',
