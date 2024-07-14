@@ -40,7 +40,7 @@ const {data:product,isLoading,error}=useGetProductDetailsQuery(productId);
                         <Rating value={product.rating} text={`${product.numReviews} reviews`} />
                     </ListGroup.Item>
                     <ListGroup.Item>
-                        Price: ${product.price}
+                        Price: &#8377; {product.price}
                     </ListGroup.Item>
                     <ListGroup.Item>
                         Description: {product.description}
@@ -53,7 +53,7 @@ const {data:product,isLoading,error}=useGetProductDetailsQuery(productId);
                         <ListGroup.Item>
                             <Row>
                                 <Col>Price:</Col>
-                                <Col><strong>${product.price}</strong></Col>
+                                <Col><strong>&#8377; {product.price}</strong></Col>
                             </Row>
                         </ListGroup.Item>
                         <ListGroup.Item>
